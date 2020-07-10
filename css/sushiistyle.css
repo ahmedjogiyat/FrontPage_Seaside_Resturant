@@ -1,0 +1,44 @@
+body{
+    height: 100%;
+}
+video{
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    position: fixed;
+    z-index: 1;
+        
+}
+div{
+    z-index: 2;
+    text-align: center;
+    position: relative;
+    margin: o auto;
+    margin-top: 100px;
+    max-width: 720px;
+    
+}
+h1{
+    margin-bottom: 25px;
+    color: bisque;
+    font-size: 44px;
+    background-color: firebrick;
+    opacity: 70%;
+    
+}
+p{
+    background-color: dimgrey;
+    color: antiquewhite;
+    opacity: 70%;
+
+}
+a{
+    display: inline-block;
+    padding: 24px 48px;
+    border: solid 4px rgb(255,60,100);
+    color:  firebrick;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
